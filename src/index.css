@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  padding: 80px;
+  font-family: sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100vw;
+  background-color: #e6ffff;
+}
+
+.input_container {
+  background-color: #e6ffff;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.apEntry {
+  background-color: #7EB7E8;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toBePaid {
+  background-color: #FFFACD;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  margin: 0px;
+  padding: 5px;
+  position: relative;
+  flex-direction: row;
+}
+
+input {
+  height: 30px;
+  width: 260px;
+  flex-direction: row;
+}
+
+button {
+  height: 35px;
+}
+
+.toBePaid h4 {
+  cursor: pointer;
+}
+
+h5 {
+  margin: 0px;
+  padding: 2px;
+}
